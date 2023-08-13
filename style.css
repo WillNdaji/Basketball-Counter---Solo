@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #101737;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container{
+    height: 300px;
+    width: 500px;
+    margin: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #1B244A;
+    padding: 30px;
+    padding-bottom: 70px;
+}
+
+.scoreboard h3{
+    color: white;
+    font-size: xx-large;
+}
+
+button{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+#homescore{
+    background-color: black;
+    color: red;
+    height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 40px;
+    font-size: 60px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+                                                
+}
+
+#score{
+    background-color: black;
+    color: red;
+    height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 40px;
+    font-size: 60px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+#hoscore{
+    font-size: 5px;
+}
+
+.buttonReset:hover{
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 15px;
+}
+
+@media screen and (max-width:769px){
+    .container{
+        width: 500px;
+        padding: 60px;
+        padding-bottom: 80px;
+        margin-right: 200px;
+    }
+
+    .buttonReset{
+        padding: 5px;
+        margin: 0 15px 0 15px;
+
+    }
+
+    
+    
+}
